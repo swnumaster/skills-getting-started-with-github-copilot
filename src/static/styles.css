@@ -74,6 +74,82 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-section {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed #c6d1e8;
+}
+
+.participants-title {
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: #1a237e;
+  letter-spacing: 0.2px;
+}
+
+.participants-list {
+  margin: 0;
+  padding-left: 0;
+  color: #25304d;
+  list-style: none;
+}
+
+.participants-list li {
+  margin-bottom: 5px;
+  line-height: 1.4;
+}
+
+.participants-list li:last-child {
+  margin-bottom: 0;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 10px;
+  background-color: #eef3ff;
+  border: 1px solid #d9e4ff;
+  border-radius: 8px;
+}
+
+.participant-email {
+  word-break: break-word;
+}
+
+.remove-participant-btn {
+  border: none;
+  background: #e3ebff;
+  color: #1a237e;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.remove-participant-btn:hover {
+  background-color: #cad9ff;
+  transform: translateY(-1px);
+}
+
+.remove-participant-btn:active {
+  transform: translateY(0);
+}
+
+.participant-empty {
+  padding: 8px 10px;
+  font-style: italic;
+  color: #5b647a;
+  background-color: #f4f7ff;
+  border-radius: 8px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
